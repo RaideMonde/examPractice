@@ -4,28 +4,19 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/gh/luxonauta/luxa@1.1/dist/expanded/luxa.css"
-    />
     <link rel="stylesheet" href="../public/createCardStyles.css" />
     <title>DevCard</title>
   </head>
   <body>
     <h1>Create your DevCard </h1>
     <form action="/action_page.php">
-      <label for="fname">Your Full Name</label>
-      <input type="text" id="full name" name="full name"><br><br>
-      <label for="lname">About you</label>
-      <input type="text" id="about" name="about"><br><br>
-      <label for="lname">GitHub URL</label>
-      <input type="text" id="github" name="github"><br><br>
-      <label for="lname">Twitter URL</label>
-      <input type="text" id="twitter" name="twitter"><br><br>
-      <label for="lname">Favorite Books</label>
-      <input type="text" id="books" name="books"><br><br>
-      <label for="lname">Favorite Artists</label>
-      <input type="text" id="artist" name="artists"><br><br>
+      <textarea rows="4" cols="50" name="fname" form="usrform">Your Full Name </textarea>
+      <textarea rows="4" cols="50" name="about" form="usrform">About </textarea>
+      <textarea rows="4" cols="50" name="github" form="usrform">GitHub URL </textarea>
+      <textarea rows="4" cols="50" name="twitter" form="usrform">Twitter URL </textarea>
+      <textarea rows="4" cols="50" name="books" form="usrform">Your Favorite Books </textarea>
+      <textarea rows="4" cols="50" name="artist" form="usrform">Your Favorite Artists </textarea>
+
       
       <input type="submit" value="Submit">
     </form> 

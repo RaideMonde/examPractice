@@ -13,7 +13,7 @@ app.get("/", (req, res) => {
 });
 
 app.get("/people/:id", (req, res) => {
-  res.render("people");
+  res.render("homepage");
 });
 
 app.get("/:id/photos", (req, res) => {
